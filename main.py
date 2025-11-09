@@ -1121,9 +1121,6 @@ class StatsDialog(QDialog):
                 QMessageBox.warning(self, "Ошибка", f"Ошибка импорта: {str(err)}")
 
 
-# Остальной код остается без изменений (GameBoard, EnergyDialog, ColorSelectDialog, GameSetupDialog, InfluenceGame)
-# Для экономии места оставлю без изменений, так как они уже были показаны ранее
-
 class GameBoard(QWidget):
     """Виджет игрового поля"""
 
