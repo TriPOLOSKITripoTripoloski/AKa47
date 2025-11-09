@@ -1,3 +1,6 @@
+from constants import BOARD_SIZES, DIFFICULTY_LEVELS, BOARD_SHAPES
+
+
 class Settings:
     def __init__(self):
         self.difficulty_levels = {
@@ -19,11 +22,5 @@ class Settings:
             }
         }
 
-        self.board_sizes = {
-            "Маленький": 3,
-            "Средний": 4,
-            "Большой": 5,
-            "Огромный": 6
-        }
-
-        self.board_shapes = ["Квадрат", "Треугольник", "Сердце", "Шестиугольник", "Спираль"]
+        self.board_sizes = BOARD_SIZES
+        self.board_shapes = BOARD_SHAPES
